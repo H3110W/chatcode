@@ -1,4 +1,8 @@
 import pickle
+#Quita este registrador y anyade el que tienes
+#con un add y luego un commit des pues subelo 
+#iniciando sesion con el remote add...
+#y luego subelos con el git push.
 info=open("data","rb")
 
 midiccionario=pickle.load(info)
